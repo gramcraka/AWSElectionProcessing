@@ -6,8 +6,5 @@ unzip anes_timeseries_cdf.zip
 
 # upgrade Python
 sudo yum install -y python36
-python -m venv my_project_venv
-
-source my_project_venv/bin/activate
-pip install -U scikit-learn pandas matplotlib
+python3 -m venv election && source election/bin/activate && pip install -U scikit-learn pandas matplotlib
 
